@@ -1,0 +1,21 @@
+# Fichiers Python compilés
+__pycache__/
+*.pyc
+*.pyo
+
+# Environnements virtuels
+venv/
+.env
+*.env
+
+# Configurations spécifiques
+config.json
+secrets.json
+
+# Fichiers Docker
+*.log
+docker-compose.override.yml
+
+# Déploiement sur Heroku
+*.sqlite3
+.DS_Store
